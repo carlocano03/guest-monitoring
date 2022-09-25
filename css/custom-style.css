@@ -90,6 +90,9 @@
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.card-info {
+    background: #e2ebfd;
+}
 
 .card-avatar {
     width: 100px;
@@ -118,4 +121,50 @@
 .card .card-text .btn-checkout:hover, 
 .card .card-text .btn-extend:hover {
     opacity: 0.8;
+}
+
+.card-package {
+    background: #f1c40f;
+    padding: 8px 10px 2px 5px;
+    margin-left: -10px;
+}
+
+.card-details .start {
+    background: #2ecc71;
+    padding: 2px 7px 3px 7px;
+    border-radius: 5px;
+    color: #fff;
+}
+.card-details .end {
+    background: #e74c3c;
+    padding: 2px 7px 3px 7px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-package-primary {
+    background: #474787;
+    border: none;
+    padding: 5px 10px 6px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn-package-primary span {
+    color: #f1c40f;
+}
+.btn-package-secondary {
+    background: #7f8c8d;
+    border: none;
+    padding: 5px 10px 6px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-package-primary:hover,
+.btn-package-secondary:hover {
+    opacity: 0.9;
 }
