@@ -1,0 +1,121 @@
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #dfe6e9;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b2bec3;
+    /* border-radius: 10px; */
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #bdc3c7;
+}
+
+.guest-wrapper {
+    overflow-y: auto;
+    max-height: 530px;
+    padding: 5px;
+}
+/* width */
+.guest-wrapper::-webkit-scrollbar {
+    width: 5px;
+}
+/* Handle */
+.guest-wrapper::-webkit-scrollbar-thumb {
+    background: #b2bec3;
+    border-radius: 10px;
+}
+/* Handle on hover */
+.guest-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #bdc3c7;
+}
+
+.counter-danger {
+    width: 18px;
+    height: 18px;
+    background: #e74c3c;
+    display: inline-block;
+}
+.counter-success {
+    width: 18px;
+    height: 18px;
+    background: #78e08f;
+    display: inline-block;
+}
+.counter-primary {
+    width: 18px;
+    height: 18px;
+    background: #7caaff;
+    display: inline-block;
+}
+
+.counter-danger-text {
+    font-size: 20px;
+    color: #e74c3c;
+}
+
+.counter-text {
+    font-size: 20px;
+}
+
+/*Cards*/
+.card {
+    border-radius: 10px;
+    border: none;
+}
+.guest .card-body {
+    display: flex;
+    align-items: center;
+}
+
+.card-danger {
+    background: #e74c3c;
+}
+.card-success {
+    background: #78e08f;
+}
+.card-primary {
+    background: #70a1ff;
+}
+.card-secondary {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-avatar {
+    width: 100px;
+    /* display: inline-block; */
+}
+.card .card-text h5{
+    /* display: inline-block; */
+    color: #fff;
+}
+.card .card-text .btn-checkout{
+    background: #f1c40f;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 10px 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card .card-text .btn-extend{
+    background: #67c48d;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 10px 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card .card-text .btn-checkout:hover, 
+.card .card-text .btn-extend:hover {
+    opacity: 0.8;
+}
